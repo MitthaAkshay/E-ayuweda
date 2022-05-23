@@ -13,58 +13,57 @@
        </h1>
   </center>
     <form method="POST" autocomplete="off" enctype="multipart/form-data">
+      <div class="shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="card">
+      <div class="card-body">
        <div class="container-fluid">  
-            <div class="card">
-                <div class="card-body">
-                  <span class="border border-dark">
-                       <div class="row-8"> 
-                               <div class="col">
+                       <div class="mb-3"> 
+                                 <div class="col-sm-2">
                                   Your File No : 
-                               </div>
-                               <div class="col">
-                                    <input class="form-control" type="Number" placeholder="101" aria-label="default input example">
-                               </div>
+                                    <input class="form-control sm-4" type="Number" placeholder="101"  Disabled aria-label="default input example">
+                                 </div>
                        </div>
-                       <div class="row ">
+                       <div class="row mb-3">
                               <div class="col">
-                               First Name : <input class="form-control" type="text" placeholder="First Name" aria-label="default input example">
+                              <input class="form-control" type="text" placeholder="First Name" aria-label="default input example">
                               </div>
                               <div class="col">
-                               Last Name : <input class="form-control" type="text" placeholder="Last Name" aria-label="default input example">
+                              <input class="form-control" type="text" placeholder="Last Name" aria-label="default input example">
+                              </div>
+                       </div>
+                       <div class="row mb-3">
+                              <div class="col">
+                              <input class="form-control" type="email" placeholder="E@mail" aria-label="default input example">
+                              </div>
+                              <div class="col">
+                              <input class="form-control" type="number" placeholder="Mobile Number" aria-label="default input example">
                               </div>
                        </div>
                        <div class="row">
-                            <div class="col">
-                             Age : <input class="form-control" type="text" placeholder="Age" aria-label="default input example">
+                             <div class="col">
+                              Gender : 
+                             <input class="form-check-input " type="radio" name="flexRadioDefault" ><label class="form-check-label ">Male</label>
+                             <input class="form-check-input " type="radio" name="flexRadioDefault" ><label class="form-check-label ">Female</label>
                             </div>
-                            <div class="col">
-                            Mobile No : <input class="form-control" type="text" placeholder="Mobile No" aria-label="default input example">
-                            </div>
-                       </div>
-                       <div class="row">
-                            <div class="col" >
-                             Gender     :<input class="form-check-input" type="radio" name="flexRadioDefault" ><label class="form-check-label " for="flexRadioDefault1">Male</label>
-                            </div>
-                            <div class="col">
-                            <input class="form-check-input " type="radio" name="flexRadioDefault" ><label class="form-check-label " for="flexRadioDefault1">Female</label>
+                            <div class="col px-md-2">
+                             <input class="form-control" type="number" placeholder="Age" aria-label="default input example">
                             </div>
                        </div>
-                       <div class="row">
-                            <div class="col">
+                       <div class="mb-3">
+                            
                              Address    :<textarea class="form-control"  rows="3"></textarea>
                             </div>
                        </div>
-                      <div class="row">
-                                <div class="col">
+                      <div class="mb-3">
+                               
                                  <button type="submit" class="btn btn-primary offset-4">Get File</button>
-                                 </div>
-                                 <div class="col">
+                                 
                                  <button type="submit" class="btn btn-primary" >Cancel</button>
-                                 </div>
+                                
                             </div>
-                     </span>
-            </div>
-          </div>
       </div>
+</div>
+</div>
+</div>
      </body>
 </html>
